@@ -1,12 +1,12 @@
 !!!
 %html
   %head
-  = stylesheet_link_tag 'application', :media => 'all'
-  = javascript_include_tag 'application'
-  = csrf_meta_tags
+    = stylesheet_link_tag=>'application', :media => 'all'
+    = javascript_include_tag 'application'
+    = csrf_meta_tags
     %title Hello world!!!
   %body
     %header
-    =yield      
+      =yield      
     %footer
       %p='&copy; Company 2013'.html_safe
