@@ -1,0 +1,84 @@
+!!!!
+%head
+    %title
+    Template &middot; Bootstrap
+
+    %body
+   
+    .container{:margin=>'0 auto', :width=>'1000px'}
+    .masthead
+    %h3{:class=>'muted'}
+    Project name
+    .navbar{:padding=>0}
+    .navbar-inner{:padding=>0} 
+    .nav{:margin=>0, :display=>'table', :width=>'100%'}
+    %div.container
+    %ul.nav
+    %li{:class=>'active'}
+    =link_to "Home"
+    %li
+    =link_to "Projects"
+    %li
+    %a href="#"
+    Services
+    %li
+    %a href="#"
+    Downloads
+    %li
+    %a href="#"
+    About
+    %li
+    %a href="#"
+    Contact
+
+-#    <!-- Jumbotron -->
+    %div[jumbotron]
+    %h1 Marketing stuff!
+    %p{class=>"lead"} Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+    %a{class=>"btn btn-large btn-success" :href=>"#"}Get started today
+ 
+    %hr
+
+-#    <!-- Example row of columns -->
+    %div[row-fluid]
+    %div[span4]
+    %h2 Heading
+    %p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+    %p
+    %a{class=>"btn" :href=>"#"} View details &raquo;
+    %div[span4]
+    %h2 Heading
+    %p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+    %p
+    %a{class=>"btn" :href=>"#"} View details &raquo;
+    %div[span4]
+    %h2 Heading
+    %p Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.
+    %p
+    %a{class=>"btn" :href=>"#"} View details &raquo;
+   
+    %hr>
+
+    %div[footer]
+    %p &copy; Company 2013
+-#    <!-- /container -->
+
+-#    <!-- Le javascript
+-#    ================================================== -->
+-#    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../assets/js/jquery.js"></script>
+    <script src="../assets/js/bootstrap-transition.js"></script>
+    <script src="../assets/js/bootstrap-alert.js"></script>
+    <script src="../assets/js/bootstrap-modal.js"></script>
+    <script src="../assets/js/bootstrap-dropdown.js"></script>
+    <script src="../assets/js/bootstrap-scrollspy.js"></script>
+    <script src="../assets/js/bootstrap-tab.js"></script>
+    <script src="../assets/js/bootstrap-tooltip.js"></script>
+    <script src="../assets/js/bootstrap-popover.js"></script>
+    <script src="../assets/js/bootstrap-button.js"></script>
+    <script src="../assets/js/bootstrap-collapse.js"></script>
+    <script src="../assets/js/bootstrap-carousel.js"></script>
+    <script src="../assets/js/bootstrap-typeahead.js"></script>
+%p Find me in app/views/puper/index.html.haml
+%h1 Listing posts
+
