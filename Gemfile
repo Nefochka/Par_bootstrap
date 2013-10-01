@@ -1,3 +1,4 @@
+source 'http://gems.github.com'
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -8,8 +9,14 @@ gem 'haml'
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
 
+<<<<<<< HEAD
 # Use Postdresql as the database for Active Record
 gem 'pg'
+=======
+# Use postgresql as the database for Active Record
+gem 'pg'
+gem 'sqlite3'
+>>>>>>> 5f38db2aa8211561895ff4b4d34c8308ef4cb9f8
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
