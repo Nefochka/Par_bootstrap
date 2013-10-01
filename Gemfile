@@ -1,3 +1,4 @@
+source 'http://gems.github.com'
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -8,7 +9,8 @@ gem 'haml'
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
 
-# Use sqlite3 as the database for Active Record
+# Use postgresql as the database for Active Record
+gem 'pg'
 gem 'sqlite3'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
