@@ -9,9 +9,8 @@ gem 'haml'
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
 
-# Use postgresql as the database for Active Record
+# Use Postdresql as the database for Active Record
 gem 'pg'
-gem 'sqlite3'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
